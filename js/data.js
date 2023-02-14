@@ -7,12 +7,16 @@ let album = [{
         {
             title: `Трек 1`,
             author: `Моцарт`,
-            time: `3:50`
+            time: `3:50`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         },
         {
-                title: `Трек 2`,
-                author: `EGM`,
-                time: `4:00`
+            title: `Трек 2`,
+            author: `EGM`,
+            time: `4:00`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         }
     ]
 
@@ -26,26 +30,32 @@ let album = [{
         {
             title: `Трек 1`,
             author: `rise`,
-            time: `2:00`
+            time: `2:00`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         },
         {
-                title: `Трек 2`,
-                author: `Morning`,
-                time: `3:00`
+            title: `Трек 2`,
+            author: `Morning`,
+            time: `3:00`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         }
     ]
 
 },
 {
-    title: `Дедлайн поджимает`,
-    img: `assets/fast.jpg`,
+    title: `Электро музыка`,
+    img: `assets/electro.jpg`,
     year: 2021,
     description: `Для того чтобы успеть в сроки`,
     tracks: [
         {
-            title: `Gotta Go Fast`,
-            author: `Sonic`,
-            time: `1:00`
+            title: `The Electro Suite`,
+            author: `....`,
+            time: `12:36`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         }
     ]
 
@@ -57,24 +67,25 @@ let album = [{
     description: `Расслабиться босле трудного дня`,
     tracks: [
         {
-            title: `Трек 1`,
-            author: `relax`,
-            time: `1:50`
-        },
-        {
-                title: `Трек 2`,
-                author: `lofi boy`,
-                time: `2:00`
+            title: `Трек 2`,
+            author: `lofi boy`,
+            time: `2:00`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         },
         {
             title: `Трек 3`,
             author: `????`,
-            time: `5:50`
+            time: `5:50`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         },
         {
             title: `Трек 4`,
             author: `????`,
-            time: `2:40`
+            time: `2:40`,
+            src: `music/relax.mp3`,
+            isPlaying: false
         }
     ]
 
