@@ -43,7 +43,7 @@ let isPlaying = false;
 function setupAudio() {
     // Найди коллекцию с треками
     let trackNodes = document.querySelectorAll(`.track`); 
-    for (let i = 0; i < tracks.length; i++) { 
+    for (let i = 0; i < trackNodes.length; i++) { 
         // Один элемент
         let node = trackNodes[i];   
         // Тег аудио внутри этого элемента
